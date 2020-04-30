@@ -1,38 +1,48 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
+title: "Americký venkov krmí celou zemi, potýká se s koronavirem.<br>Trump masokombinátům přikázal nezavírat"
+perex: "Jedna třetina světové bilance nákažených Covid-19 připadá na Spojené státy. Epicentrem zůstává i nadále New York, nejvyšší počet nových případů ale hlásí zěmědělské státy Středozápadu. Nákaza se rychle šíří v masokombinátech, jejich vlastníci se obávají, že dojde k omezení některých produktů v supermarketech. Donald Trump proto podnikl zákonné kroky k udržení tohoto odvětví."
+coverimg: https://www.irozhlas.cz/sites/default/files/uploader/2020-04-28t223428z_1_200430-113423_nkr.JPG
+coverimg_note: "Kvůli zavřeným kavárnám či školám klesla cena i spotřeba mléka.<a href='https://reuters.com'>Reuters</a>"
 styles: []
-libraries: [] #jquery, d3, highcharts, datatables
-options: [noheader] #wide, noheader (, nopic)
+libraries: ['https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.0/d3.min.js', "https://code.highcharts.com/maps/highmaps.js", "https://code.highcharts.com/mapdata/countries/us/custom/us-all-mainland.js", 'https://data.irozhlas.cz/corona-map/pocitadlo-usa.js'] #jquery, d3, highcharts, datatables
+options: [] #wide, noheader (, nopic)
 ---
-<left>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</left>
 
-Během dne se lidé v Praze soustřeďují v okolí administrativních center a obchodů, po poledni se tak nejvíc zahustí okolí Andělu, centrum Prahy (Vodičkova ulice a Petrské náměstí) a Brumlovka nedaleko Budějovické. Na poslední jmenované adrese sídlí řada velkých korporací, mezi nimi i Microsoft nebo ČEZ. Pro srovnání, na zmíněných místech je ve "špičce" okolo šesti stovek osob na jeden hektar, průměr Prahy je 25 obyvatel na [hektar](https://cs.wikipedia.org/wiki/Hektar) (Václavské náměstí má rozlohu asi 4 hektary).
+<wide>
+<div id="containerusa"></div>
+</wide>
+<br>
 
-Naopak v noci se nejvíc lidí se "namačká" ve Vršovicích, jde o 430 osob na hektar.
+Více než 500 lidí v masokombinátu Smithfield v Jižní Dakotě nemohlo přijít do práce, nakazili se koronavirem. Jedna z největších továren na zpracování vepřového se proto musela uzavřít. V sousední Iowě se počet pozitivních případů behěm 14 dní zvýšil desetkrát, většina z nich napojena na balírnu masa. 
 
-Detaily si můžete prohlédnout v následující mapě, kterou z dat mobilních operátorů zpracoval pražský [Institut plánování a rozvoje](http://www.iprpraha.cz/).
+Podle deníku [The New York Times](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html) přerušilo nebo zpomalilo svou produkci nejméně 40 zařízení v potravinářském průmyslu. Kvůli nedostatku personálu se farmáři navíc obávají, že budou muset svá zvířata utratit.
 
-<wide><i>Pokud vás zajímá, "kolik" lidí bývá ve dne a v noci ve vaší čtvrti, najděte si ji na mapě, přepněte se na časové řezy, vyberte přepínač hustota osob a potom pohybujte "posuvníkem" nahoře.</i></wide>
+Americký prezident Donald Trump proto kvůli obavám o udžení národní bezpečnosti uplatnil [zákon](https://www.ft.com/content/2c7e1a34-2cd7-4b80-ae2d-a8549f565423), který vládě dává pravomoc nařídit soukromým společnostem výrobu nepřerušovat. „Tento krok zajistí, aby firmy zapojené v potravinovém řetězci byly schopné bezpečně pokračovat ve výrobě a nedošlo k ohrožení potřeb Američanů,” znělo oficiální vyjádření Bílého domu.
 
-## Data na prodej
-<right>
-	<p>
-	<b>KAREL HYNEK MÁCHA</b>
-	</p><p>
-	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
-	</p>
-</right>
+Rozhodnutí přišlo poté, co největší americký masokombinát Tyson Foods varoval před kolapsem potravinového řetězce. Šíření viru mezi zaměstnanci donutilo společnost v posledním týdnu uzavřít tři svá zařízení.
 
-I pokud netelefonujeme nebo neposíláme SMS, telefon pravidelně komunikuje s vysílači v síti mobilního operátora. Z dat o síle signálu a použité anténě je možné odvodit, kde se přibližně telefon nachází a jak dlouhou dobu na místě strávil.
+<div id="corona_usa"></div>
 
-Mobilní operátor má ["zákonnou povinnost"](https://www.zakonyprolidi.cz/cs/2005-127/zneni-20160919#p97-3) takové informace uchovávat, a to půl roku do minulosti, přistupovat k nim ale mohou jen bezpečnostní složky, typicky policie nebo rozvědka.
+Podle Trumpa ale společnostem nyní nehrozí právní odpovědnost, pokud se během pandemie rozhodnout svá zařízení znovu otevřít. Odbory zastupující čtvrt milionů zaměstnanců toho odvětví se ale obávají, že není zajistěna jejich dostatečná bezpečnost. Odhadují, že se jich doposud koronavirem nakazilo šest a půl tisíce, dvě desítky zemřely.
 
-Operátoři ale obdobné informace mohou anonymizovat (tedy "zbavit" identifikace konkrétního uživatele) a agregovat, tedy spojit informace o jednotlivcích do jakýchsi skupin. Výsledná obecná čísla pak přeprodávají dál, například marketingovým firmám či dopravním analytikům. Zpětně z nich nejde dovodit, kde se pohybuje každý jednotlivec, dávají ale určitý přehled o obecném chování obyvatel nějakého místa.
+## Americký venkov krmí města
+
+Zatímco i nadále je nejvíce nakažených ve větších městech na pobřeží, v méně osídlených částech země může koronavirus paralyzovat i celé komunity. 
+
+„Středozápad je sice méně obydlený, ale v továrnách jako jsou právě masokombináty jsou v úzkém kontaktu velké skupiny lidí z různých okolních vesnic. Proto se i tam začaly objevovat větší epicentra nákazy,“ uvedla pro server iROZHLAS.cz Lauryn Higgins, novinářka spolupracující s deníkem The New York Times z Nebrasky. Tamní zpracovatel hovězího JBS zaměstnává 3500 lidí, osm jeho zaměstanců nákaze koronavirem podlehlo.
+
+Pro americký venkov závislý na zemědělství navíc může být podle Higgins koronavirus velmi nebezpečný. „Zaměstnanci se obávají, že nakazí sebe i své blízké. Mnoho z nich si ale nemůže dovolit zůstat doma, navíc zavírání fabrik ohrožuje celé Spojené státy. Mají pocit, že musí lidem zajistit jídlo na stůl.“ 
+
+<img class="embed" src="https://www.irozhlas.cz/sites/default/files/uploader/2020-04-28t222601z_1_200430-114113_nkr.JPG" width="100%">
+<i> Koronavirus trápí také malé zemědělce, rodinná mlékárná ve státě Missouri musela kvůli nízké ceně i poptávce omezit svou výrobu. (Reuters)</i>
+<br>
+
+
+Není výjimkou, že na místech, kde potravinářské koncerny sídlí, bydlí jen několik stovek obyvatel. Pokud by se v takových komunitách nákaza masově rozšířila, může dojít k výpadku základních služeb. Obchody s potravinami, pošty, nebo pečovatelské domy mohou být vystaveny riziku, že nebudou mít dostatek zdravých zaměstnanců. 
+
+„Prozatím k tomu nedošlo, ale nahání to strach. Americký venkov má statisticky horší dostupnost zdravotní péče, nejbližší nemocnice bývají i desítky kilometrů daleko. Nejsou navíc připraveny na velký nápor lidí,“ dodává Higgins.
+
+## Druhá zkouška
+
+Nakažených je ve Spojených státech přes milion, nejméně 60 tisíc lidí zemřelo. V dubnu se každý den ve Spojených státech v průměru nakazily dva tisíce lidí. Skutečný počet nakažených ale může být i několika násobně vyšší. Kolem 30 procent nemocných je ve státě New York, který je od počátku hlavním epicentrem nákazy. Nejpostiženějšími jsou New Jersey, Massachusetts, Kalifornie a Pensylvánie. Narůstající počet nových případů ale hlásí mnoho méně obydlených států - Iowa, Wisconsin, Nebraska nebo Kansas.
+
+Podle některých [odborníků](https://www.economist.com/graphic-detail/2020/04/25/the-south-is-likely-to-have-americas-highest-death-rate-from-covid-19) by koronavirus mohl výrazně postihnout také jih země. Hustě osídlená města na pobřežích mají širokou skladbu obyvatel, právě na venkově a americkém jihu je ale vyšší míra srdečních chorob nebo cukrovky, které mohou průběh nemoci komplikovat. 
