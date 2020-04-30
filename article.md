@@ -1,5 +1,5 @@
 title: "Americký venkov krmí celou zemi, potýká se s koronavirem.<br>Trump masokombinátům přikázal nezavírat"
-perex: "Milion nakažených, tedy jedna třetina ze všech, připadá na Spojené státy. Epicentrem zůstává i nadále New York, nejvyšší počty nových případů ale hlásí zěmědělské státy Středozápadu. Nákaza se rychle šíří v tamních masokombinátech, které omezují svou produkci. Může tedy dojít k omezení některých potravin v supermarketech. Donald Trump proto podnikl zákonné kroky k udržení tohoto odvětví."
+perex: "Milion nakažených, tedy jedna třetina ze všech, připadá na Spojené státy. Epicentrem zůstává i nadále New York, nejvyšší počty nových případů ale hlásí zěmědělské státy Středozápadu. Nákaza se rychle šíří v tamních masokombinátech, které omezují svou produkci. Může tedy dojít k výpadku některých potravin v supermarketech. Donald Trump proto podnikl zákonné kroky k udržení tohoto odvětví."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2020-04-28t223428z_1_200430-113423_nkr.JPG?itok=52Qh5zUs
 coverimg_note: "Kvůli zavřeným kavárnám či školám klesla v USA například cena i spotřeba mléka.<a href='https://reuters.com'>Reuters</a>"
 styles: []
