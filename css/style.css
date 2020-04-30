@@ -1,0 +1,23 @@
+#containerusa  {
+    width: 100%;
+    height: 65vh;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 800x;
+    max-height: 450px;
+}
+
+figcaption {
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
